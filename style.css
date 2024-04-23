@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.quadrado {
+    background-color: rgb(78, 81, 122);
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+input {
+    background-color: transparent;
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border: 1px solid rgb(119, 119, 119);
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.pesquisar {
+    height: 40px;
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 20px;
+    background-color: rgb(235, 163, 9);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    cursor: pointer;
+}
