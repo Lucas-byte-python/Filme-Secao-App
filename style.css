@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+body{
+    height: 100vh;
+    background: linear-gradient(#1c1917 50%, #ffb92a 50%);
+}
+
 .quadrado {
     background-color: rgb(78, 81, 122);
     width: 500px;
