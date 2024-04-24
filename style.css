@@ -6,23 +6,27 @@
 
 body{
     height: 100vh;
-    background: linear-gradient(#1c1917 50%, #ffb92a 50%);
+    background: linear-gradient(#7278c0 45%, #82b67f 45%);
+    overflow: hidden;
 }
 
 .quadrado {
     background-color: rgb(78, 81, 122);
     width: 500px;
-    height: 600px;
+    height: 800px;
     border-radius: 10px;
-    margin-left: 200px;
-    margin-top: 150px;
+    width: 80%; 
+    max-width: 600px;
+    margin: 4% auto; 
+    text-align: left; 
+    padding: 20px; 
 }
 
 input {
     background-color: transparent;
     border-radius: 5px;
     height: 40px;
-    width: 300px;
+    width: 340px;
     margin-left: 20px;
     margin-top: 40px;
     border-color: rgb(255, 255, 255);
@@ -41,8 +45,8 @@ input::placeholder {
     height: 40px;
     border-radius: 5px;
     width: 100px;
-    margin-left: 20px;
-    background-color: rgb(235, 163, 9);
+    margin-left: 70px;
+    background-color: rgb(9, 235, 197);
     color: rgb(0, 0, 0);
     font-weight: 600;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -52,20 +56,20 @@ input::placeholder {
 
 h1 {
     color: white;
-    margin-left: 250px;
+    margin-left: 340px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
     font-size: 24px;
-    margin-top: 20px;
+    margin-top: -220px;
 }
 
 i {
-    margin-left: 270px;
+    margin-left: 370px;
     color: white;
 }
 
 .detalhe {
-    margin-left: 300px;
+    margin-left: 400px;
     margin-top: -22px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -74,7 +78,7 @@ i {
 
 .detalhes {
     margin-top: 20px;
-    margin-left: 245px;
+    margin-left: 340px;
     color: white;
     opacity: 0.5;
     font-weight: 300;
@@ -86,7 +90,7 @@ i {
 }
 
 .categorias {
-  margin-left: 140px;
+  margin-left: 240px;
   display: inline-block;
 }
 
@@ -99,4 +103,30 @@ i {
     border-radius: 5px;
     border: 1px solid rgb(119, 119, 119);
     color: white;
+}
+
+img {
+    width: 200px;
+    border-radius: 10px;
+    height: 250px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.conteudo {
+    margin-top: 100px;
+}
+
+.conteudo h2{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.conteudo p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    text-align: justify;
 }
