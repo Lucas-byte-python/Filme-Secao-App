@@ -16,6 +16,7 @@
 ## - Visual prototyping
 ## - UI/UX design exploration
 ## - Foundation for building a functional movie app in the future
+<br>
 <p align = "center">
   <img src="section.png" width="auto">
 </p>
